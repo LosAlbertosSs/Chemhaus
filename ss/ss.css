@@ -1,0 +1,140 @@
+Body {
+font-family: arial, sans-serif;
+}
+
+.menu a{
+Float: center;
+color: black;
+Text-align: center;
+Padding:14xp;
+Text-direction: none;
+Font-size: 17px;
+Text-decoration: none;
+Margin-left: 45px;
+Margin-right: 45px;
+margin-bottom: 20px;
+}
+
+.menu{
+Background-color: #eeeeee;
+Padding: 17px 17px;
+width: 100%;
+position: fixed;
+top: 0px;
+height: 100%
+width: 100%;
+}
+
+.menu a:hover {
+
+}
+
+ul {
+list-style: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  width: 70%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 5px solid #EEEEEE;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 5px solid white;
+  margin-top: 0px; /* Prevent double borders */
+  background-color: #EEEEEE;
+  border-radius: 15px;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eeeee;
+}
+
+
+.ice {
+Text-decoration: none;
+Text-direction: none;
+Display: inline;
+Float: center;
+Display: inline;
+Margin-right: 10px;
+Margin-left: 20px;
+margin-top: 10px;
+}
+
+h13 {
+	font-size: 25px;
+}
+
+.products p, img, button, form{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+
+p.p{
+	text-align: left;
+	vertical-align: middle;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 40px;
+	position: static;
+}
+
+p.p2 {
+	vertical-align: middle;
+
+	font-size: 20px;
+}
+
+.buy {
+	height: 100px;
+	width: 180px;
+	border:3px solid black;
+	border-radius: 15px;
+	background-color: #eeeeee;
+	font-size: 50px; 
+	
+}
+
+button.buy {
+	text-align: center;
+	vertical-align: middle;
+
+}
+img.img{
+	height: 300px;
+	position: left;
+	vertical-align: middle;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background-color: white; 
+}
+
+a.hx1 {
+	font-size: 80px;
+}

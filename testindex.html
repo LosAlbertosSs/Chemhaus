@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="ss/ss.css">
+<center>
+<b>
+<div class="menu">
+<a href="index2.html">Home Page</a>
+<a href="index.html"><h13>Store</h13></a>
+<a href="menu">Support</a>
+</b>
+</div>
+</br></br></br></br>
+<div class="ice">
+<a href=""><img src="img/en.png" class="icon" height="12px" width="12px">EN</a>
+<a href=""><img src="img/de.png" class="icon" height="12px">DE</a>
+</div>
+</center>
+
+
+
+  <title>Chemhaus - your best chemical store</title>
+  
+</head>
+<body>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+
+<center>
+		<h1> Welcome to your favourite chemical store. 
+		<br><br>Chemhaus</h1>
+		<h3> Here you can buy every single one of your desired chemical products:</h3>
+
+	<!-- listaproduktow --!>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..." title="Type in a name" bgcolor="#EEEEE">
+
+
+<ul id="myUL">
+  <li><a>
+  <div class="products">
+  <img src="img/p/SMS5L.png" class="img">
+  <P class="p">solvent mineral spirit</p>
+  
+     <form>
+      <button type="reset" onclick="location.href='https://sentry.io/answers/'" class="buy">
+        Buy
+      </button>
+    </form>
+
+  
+  </li></a>
+  <li><a href="#">Produkt2</a></li>
+  <li><a href="#">Produkt3</a></li>
+  <li><a href="#">Produkt4</a></li>
+  <li><a href="#">Produkt5</a></li>
+  <li><a href="#">Produkt6</a></li>
+  <li><a href="#">Produkt7</a></li>
+</ul>
+
+
+
+
+</body>
+</html>
